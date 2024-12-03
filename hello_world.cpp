@@ -10,6 +10,6 @@ int main() {
     std::cout<<"Введите имя пользователя:";//Просьба ввода с клавиатуры
     std::cin>>name;//Принятие ввода
 >>>>>>> 8b61e21557304c91bd23ff80a0ee76d21d4ab410
-    std::cout << "Hello world from "<<name<<std::endl;//Вывод
+    std::cout << "Hello world from "<<name<<std::endl;//Вывод 123
     return 0;
 }
