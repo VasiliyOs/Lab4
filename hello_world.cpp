@@ -1,10 +1,9 @@
 #include <iostream>
-using namespace std;
-
+//Удалили using namespace std;
 int main() {
-    string name;
-    cout<<"Введите имя пользователя: ";
-    cin>>name;
-    cout << "Hello world from "<<name<<endl;
+    string name; //Переменная, используемая для хранения имени пользователя
+    std::cout<<"Введите имя пользователя:";//Requesting keyboard input
+    std::cin>>name;//Keyboard input
+    std::cout << "Hello world from "<<name<<std::endl;//Вывод
     return 0;
 }
