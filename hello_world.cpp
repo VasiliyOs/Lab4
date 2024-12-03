@@ -1,5 +1,5 @@
 #include <iostream>
-//Удалили using namespace std;
+//Удалили using namespace std;r
 int main() {
 <<<<<<< HEAD
     string name; //Переменная, используемая для хранения имени пользователя
